@@ -1,2 +1,2 @@
-# BasicKeyboard
- A basic keyboard with C#
+# Basic Keyboard
+ A basic keyboard in C# using NAUDIO.
