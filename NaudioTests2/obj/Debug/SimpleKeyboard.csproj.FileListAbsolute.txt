@@ -1,0 +1,14 @@
+C:\Users\joao_\Documents\PROGRAMACAO\Repositorios\BasicKeyboard\NaudioTests2\bin\Debug\NaudioTests2.exe.config
+C:\Users\joao_\Documents\PROGRAMACAO\Repositorios\BasicKeyboard\NaudioTests2\bin\Debug\NaudioTests2.exe
+C:\Users\joao_\Documents\PROGRAMACAO\Repositorios\BasicKeyboard\NaudioTests2\bin\Debug\NaudioTests2.pdb
+C:\Users\joao_\Documents\PROGRAMACAO\Repositorios\BasicKeyboard\NaudioTests2\bin\Debug\NAudio.dll
+C:\Users\joao_\Documents\PROGRAMACAO\Repositorios\BasicKeyboard\NaudioTests2\bin\Debug\PewPew.dll
+C:\Users\joao_\Documents\PROGRAMACAO\Repositorios\BasicKeyboard\NaudioTests2\bin\Debug\NAudio.xml
+C:\Users\joao_\Documents\PROGRAMACAO\Repositorios\BasicKeyboard\NaudioTests2\obj\Debug\SimpleKeyboard.csprojAssemblyReference.cache
+C:\Users\joao_\Documents\PROGRAMACAO\Repositorios\BasicKeyboard\NaudioTests2\obj\Debug\NaudioTests2.Form1.resources
+C:\Users\joao_\Documents\PROGRAMACAO\Repositorios\BasicKeyboard\NaudioTests2\obj\Debug\NaudioTests2.Properties.Resources.resources
+C:\Users\joao_\Documents\PROGRAMACAO\Repositorios\BasicKeyboard\NaudioTests2\obj\Debug\SimpleKeyboard.csproj.GenerateResource.cache
+C:\Users\joao_\Documents\PROGRAMACAO\Repositorios\BasicKeyboard\NaudioTests2\obj\Debug\SimpleKeyboard.csproj.CoreCompileInputs.cache
+C:\Users\joao_\Documents\PROGRAMACAO\Repositorios\BasicKeyboard\NaudioTests2\obj\Debug\SimpleKeyboard.csproj.CopyComplete
+C:\Users\joao_\Documents\PROGRAMACAO\Repositorios\BasicKeyboard\NaudioTests2\obj\Debug\NaudioTests2.exe
+C:\Users\joao_\Documents\PROGRAMACAO\Repositorios\BasicKeyboard\NaudioTests2\obj\Debug\NaudioTests2.pdb

@@ -546,7 +546,12 @@ namespace NaudioTests2
             PlayTone(sender, Globals.b * 2, 35);
         }
 
-        
+        private void btn_clear_Click(object sender, EventArgs e)
+        {
+            sb_frequency.Value = 0;
+            frequency = 0;
+            lb_freq.Text = frequency.ToString();
+        }
     }
 }
 

@@ -76,6 +76,7 @@
             this.btn_g3 = new System.Windows.Forms.Button();
             this.btn_c3 = new System.Windows.Forms.Button();
             this.cb_keyTitle = new System.Windows.Forms.CheckBox();
+            this.btn_clear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_d2
@@ -310,7 +311,7 @@
             // 
             this.cb_waveType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cb_waveType.FormattingEnabled = true;
-            this.cb_waveType.Location = new System.Drawing.Point(12, 12);
+            this.cb_waveType.Location = new System.Drawing.Point(16, 24);
             this.cb_waveType.Name = "cb_waveType";
             this.cb_waveType.Size = new System.Drawing.Size(152, 21);
             this.cb_waveType.TabIndex = 0;
@@ -371,7 +372,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(170, 15);
+            this.label5.Location = new System.Drawing.Point(14, 8);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(62, 13);
             this.label5.TabIndex = 36;
@@ -412,9 +413,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(429, 32);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 13);
+            this.label3.Size = new System.Drawing.Size(29, 13);
             this.label3.TabIndex = 31;
-            this.label3.Text = "Volume";
+            this.label3.Text = "Gain";
             // 
             // btn_ag1
             // 
@@ -875,20 +876,31 @@
             // cb_keyTitle
             // 
             this.cb_keyTitle.AutoSize = true;
-            this.cb_keyTitle.Location = new System.Drawing.Point(64, 52);
+            this.cb_keyTitle.Location = new System.Drawing.Point(44, 52);
             this.cb_keyTitle.Name = "cb_keyTitle";
-            this.cb_keyTitle.Size = new System.Drawing.Size(87, 17);
+            this.cb_keyTitle.Size = new System.Drawing.Size(107, 17);
             this.cb_keyTitle.TabIndex = 64;
             this.cb_keyTitle.TabStop = false;
-            this.cb_keyTitle.Text = "Show Labels";
+            this.cb_keyTitle.Text = "Show key Labels";
             this.cb_keyTitle.UseVisualStyleBackColor = true;
             this.cb_keyTitle.CheckedChanged += new System.EventHandler(this.cb_keyTitle_CheckedChanged);
+            // 
+            // btn_clear
+            // 
+            this.btn_clear.Location = new System.Drawing.Point(226, 8);
+            this.btn_clear.Name = "btn_clear";
+            this.btn_clear.Size = new System.Drawing.Size(40, 20);
+            this.btn_clear.TabIndex = 65;
+            this.btn_clear.Text = "clear";
+            this.btn_clear.UseVisualStyleBackColor = true;
+            this.btn_clear.Click += new System.EventHandler(this.btn_clear_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(526, 183);
+            this.Controls.Add(this.btn_clear);
             this.Controls.Add(this.btn_ag3);
             this.Controls.Add(this.btn_gg3);
             this.Controls.Add(this.btn_fg3);
@@ -943,7 +955,7 @@
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Mini Piano";
+            this.Text = "Keyboard";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
@@ -1001,6 +1013,7 @@
         private System.Windows.Forms.Button btn_g3;
         private System.Windows.Forms.Button btn_c3;
         private System.Windows.Forms.CheckBox cb_keyTitle;
+        private System.Windows.Forms.Button btn_clear;
     }
 }
 
